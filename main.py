@@ -67,10 +67,10 @@ def checkwithrandom():
                         print(f'{Style.BRIGHT}{Fore.LIGHTBLACK_EX}[{Fore.LIGHTORANGE_EX}Too-Short{Fore.LIGHTBLACK_EX}]{Fore.LIGHTWHITE_EX} ' + name)
                     else:
                         print(f'{Style.BRIGHT}{Fore.LIGHTBLACK_EX}[{Fore.LIGHTGREEN_EX}Available{Fore.LIGHTBLACK_EX}]{Fore.LIGHTWHITE_EX} ' + name)
-                        availablefile.write(name + '\n')
+                        availablefile.write(f'{name}\n')
                 elif(str(r) == "200"):
                     print(f'{Style.BRIGHT}{Fore.LIGHTBLACK_EX}[{Fore.LIGHTRED_EX}Taken{Fore.LIGHTBLACK_EX}]{Fore.LIGHTWHITE_EX} ' + name)
-                    takenfile.write(name + '\n')
+                    takenfile.write(f'{name}\n')
             else:
                 print("")
                 print(f"{Fore.LIGHTGREEN_EX}Done{Fore.RESET}")
@@ -180,10 +180,10 @@ def main():
                         print(f'{Style.BRIGHT}{Fore.LIGHTBLACK_EX}[{Fore.LIGHTORANGE_EX}Too-Short{Fore.LIGHTBLACK_EX}]{Fore.LIGHTWHITE_EX} ' + name)
                     else:
                         print(f'{Style.BRIGHT}{Fore.LIGHTBLACK_EX}[{Fore.LIGHTGREEN_EX}Available{Fore.LIGHTBLACK_EX}]{Fore.LIGHTWHITE_EX} ' + name)
-                        availablefile.write(name + '\n')
+                        availablefile.write(f'{name}\n')
                 elif(str(r) == "200"):
                     print(f'{Style.BRIGHT}{Fore.LIGHTBLACK_EX}[{Fore.LIGHTRED_EX}Taken{Fore.LIGHTBLACK_EX}]{Fore.LIGHTWHITE_EX} ' + name)
-                    takenfile.write(name + '\n')
+                    takenfile.write(f'{name}\n')
             else:
                 print("")
                 print(f"{Fore.LIGHTGREEN_EX}Done{Fore.RESET}")
