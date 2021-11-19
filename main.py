@@ -45,9 +45,9 @@ def checkwithrandom():
         ''')
         includenumbers = input(f'{Style.BRIGHT}{Fore.LIGHTWHITE_EX} Pick a number: {Style.BRIGHT}{Fore.LIGHTBLACK_EX}')
         if(includenumbers == "1"):
-            characters = '1234567890ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz'
+            characters = '1234567890abcdefghijkmnopqrstuvwxyz'
         elif(includenumbers == "2"):
-            characters = 'ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz'
+            characters = 'abcdefghijkmnopqrstuvwxyz'
         elif(includenumbers == "3"):
             characters = '1234567890'
         else:
